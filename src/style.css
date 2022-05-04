@@ -1,0 +1,161 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+  background: whitesmoke;
+}
+
+main{
+  background: whitesmoke;
+  width: 30%;
+  padding: 3% 0%;
+  box-shadow: 0 0 10px grey;
+  display: relative;
+  margin: 5% auto
+}
+
+h1{
+  color: darkblue;
+  text-align: center;
+}
+
+h3{
+  padding: 0 5%;
+}
+
+#button_container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 2% 8%;
+
+}
+
+
+#button_container div{
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  margin: 10%;
+  cursor: pointer;
+  box-shadow: 0 0 10px grey;
+  padding: 10%;
+}
+
+#button_container div span{
+  position: relative;
+  display: inline-block;
+  font-size: bolder;
+}
+
+
+
+button{
+  width: 50%;
+  background-color: darkblue;
+  box-shadow: 0 0 5px grey;
+  color: whitesmoke;
+  font-weight: bold;
+  height: 40px;
+  padding: 2%;
+  font-size: 0.9em;
+  border: 0;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+button.dice_mode{
+  background: white;
+  color: darkblue;
+}
+
+button:active{
+  box-shadow: inset 2px 2px 10px -3px white;
+}
+
+button.dice_mode:active{
+  box-shadow: inset 2px 2px 10px -3px grey;
+}
+
+
+
+p{
+  padding: 5%;
+  text-align: center;
+  color: darkblue;
+  font-family: cursive;
+  font-size: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resoponsive Design */
+
+
+
+@media (max-width: 1182px){
+  main{
+    width: 50%;
+  } 
+}
+
+
+@media (max-width: 736px){
+  main{
+    width: 60%;
+  }
+
+  button{
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+
+
+
+@media (max-width: 517px){
+  main{
+    width: 80%;
+  }
+}
+
+
+
+@media (max-width: 516px){
+  main{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
