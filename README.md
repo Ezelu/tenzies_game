@@ -3,8 +3,11 @@
 A game I built to help me minimize boredom while coding. It can keep tracks of the shortest time used in finishing the game.
 
 > Mobile responsive
+
 > Optimized
+
 > Tracks time
+
 > Switches from dice view to digits
 
 Here is the live link: https://ezelutenzies.netlify.app
